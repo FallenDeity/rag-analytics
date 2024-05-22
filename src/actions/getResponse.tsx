@@ -33,7 +33,7 @@ export async function getResponse(message: string, context: string[]): Promise<s
 	const CONDENSE_QUESTION_PROMPT = PromptTemplate.fromTemplate(questionPrompt);
 	const answerPrompt = `You are given the following context and a question. As a business and data analytics assistant, provide a response to the question based on the context. Remember to rephrase and provide a clear and concise and professional response.
     {context}
-    
+
     Question: {question}`;
 	const CONDENSE_ANSWER_PROMPT = PromptTemplate.fromTemplate(answerPrompt);
 
