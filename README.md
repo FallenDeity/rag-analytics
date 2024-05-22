@@ -1,8 +1,16 @@
+# Demo
+
+![Demo](assets/demo.png)
+
+- A basic analytics dashboard to display the data.
+- A visualization graph to show the data.
+- A llm based rag enabled ai chatbot to answer the queries.
+
 # Setup
 
 ```bash
-$ git clone https://github.com/FallenDeity/react-next-tailwind-template
-$ cd react-next-tailwind-template
+$ git clone https://github.com/FallenDeity/rag-analytics
+$ cd rag-analytics
 $ npm install
 ```
 
